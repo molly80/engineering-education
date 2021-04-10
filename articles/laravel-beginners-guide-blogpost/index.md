@@ -143,7 +143,7 @@ A controller has 7 signature methods that enables crud operations:
 2. `show()` – to fetch a single resource e.g. a single blog post, say, post 5.
 3. `create()` – shows the form to use to create a resource (not available for API controllers).
 4. `store()` – to commit the resource to database e.g. save blog post.
-5. `index()` – to show the form to edit the resource (not available for API controllers).
+5. `edit()` – to show the form to edit the resource (not available for API controllers).
 6. `update()` – to commit the edited resource to database.
 7. `destroy()` – to delete a resource from database.
 
